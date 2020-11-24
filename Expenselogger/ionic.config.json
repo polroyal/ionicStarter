@@ -1,0 +1,7 @@
+{
+  "name": "Expenselogger",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
