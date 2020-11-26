@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SettingsComponent } from './settings.component';
+import { AccountComponent } from './account.component';
 import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
-  declarations: [SettingsComponent],
+  declarations: [AccountComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
-      { path: '', component: SettingsComponent },
+      { path: '', component: AccountComponent },
     ])
   ],
 })
-export class SettingsModule { }
+export class AccountModule { }

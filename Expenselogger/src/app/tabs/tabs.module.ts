@@ -7,7 +7,7 @@ import { TabsPageRoutingModule } from './tabs-routing.module';
 
 import { TabsPage } from './tabs.page';
 import { DashboardComponent } from '../pages/dashboard/dashboard.component';
-import { SettingsModule } from '../pages/settings/settings.module';
+import { AccountModule } from '../pages/account/account.module';
 import { BudgetModule } from '../pages/budget/budget.module';
 import { ActivityModule } from '../pages/activity/activity.module';
 
@@ -18,7 +18,7 @@ import { ActivityModule } from '../pages/activity/activity.module';
     FormsModule,
     TabsPageRoutingModule,
     DashboardComponent,
-    SettingsModule,
+    AccountModule,
     BudgetModule,
     ActivityModule
   ],
